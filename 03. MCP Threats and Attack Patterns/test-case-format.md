@@ -2,7 +2,7 @@
 
 Authoring template for the test cases in [sections 3.01–3.19](<3. MCP Threats and Attack Patterns.md>). Read this before adding or editing a test.
 
-Every test in this chapter is written to the same shape so that a reader can run it and a reviewer can check it. The 79 tests in `3.01`–`3.19` are the reference implementation of the template below.
+Every test in this chapter is written to the same shape so that a reader can run it and a reviewer can check it. The 80 tests in `3.01`–`3.19` are the reference implementation of the template below.
 
 ## Where tests live
 
