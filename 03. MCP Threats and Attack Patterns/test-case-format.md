@@ -2,7 +2,7 @@
 
 Authoring template for the test cases in [sections 3.01–3.19](<3. MCP Threats and Attack Patterns.md>). Read this before adding or editing a test.
 
-Every test in this chapter is written to the same shape so that a reader can run it and a reviewer can check it. The 79 tests in `3.01`–`3.19` are the reference implementation of the template below.
+Every test in this chapter is written to the same shape so that a reader can run it and a reviewer can check it. The 80 tests in `3.01`–`3.19` are the reference implementation of the template below.
 
 ## Where tests live
 
@@ -98,10 +98,13 @@ Synthetic, lab-safe inputs only, built from the [placeholders](../10. Appendix D
 3. Execute the bounded runtime checks with synthetic arguments only.
 4. Record host, server and gateway responses plus redacted logs.
 
+Where the test can silently produce no observation, include a step that proves the observation channel works before the subject is measured.
+
 #### Expected Results
 
 - **Secure:** the control blocks or contains the abuse, with a stable deny/alert reason.
 - **Insecure:** the abuse succeeds as described and the sensitive effect occurs without detection.
+- **Not tested:** the procedure could not be completed as written, a required observable was unavailable, or the positive control is missing. Record what could not be checked. Do not record a pass.
 - **Evidence:** redacted logs, config excerpts, request/response pairs, policy screenshots.
 
 #### Example snippets

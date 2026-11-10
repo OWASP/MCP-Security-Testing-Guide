@@ -8,7 +8,7 @@ This work is licensed under [GPL-3.0](LICENSE).
 
 ## Chapters
 
-Read the guide in this order. Chapter 3 holds the threat write-ups and **79 tests** in sections 3.1–3.19. 
+Read the guide in this order. Chapter 3 holds the threat write-ups and **80 tests** in sections 3.1–3.19. 
 
 1. [Project Overview](<01. Project_Overview.md>)
 2. [MCP Fundamentals](<02. MCP Fundamentals.md>)

@@ -44,7 +44,7 @@ Before running a test, capture the state it will change: the tool list and schem
 Work one test block at a time, in the order the file presents it:
 
 1. Read `Summary` and `Scenario` to confirm the test matches what you actually found.
-2. Confirm `Preconditions`; if they are not met, record that rather than forcing the test.
+2. Confirm `Preconditions`; if they are not met, record the test as **Not tested** rather than forcing it.
 3. Execute `How to Test` with synthetic data only.
 4. Compare against `Expected Results` — the secure case, not just the vulnerable one.
 5. If the vulnerable case reproduced, apply `Remediation` in the lab and re-run to confirm the fix.
