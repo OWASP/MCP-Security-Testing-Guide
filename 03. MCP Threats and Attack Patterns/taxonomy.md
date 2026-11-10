@@ -31,7 +31,7 @@ Identifiers are referenced in prose as backticked codes (`MCPSTG-INFO-01`) and a
 | 3.13 | Supply Chain | `SUPP` | Whether server provenance, dependencies, installation, registry trust and updates are verifiable. |
 | 3.14 | Enterprise Governance | `GOV` | Whether inventory, approved registries, policy, exceptions and compliance evidence exist and are enforced. |
 | 3.15 | Transport and Channel | `TRNS` | Whether TLS, transport authentication binding, sizing and timeouts are correct. |
-| 3.16 | Gateway and Egress | `GW` | Whether gateway allowlists, SSRF protections and rate limiting hold. |
+| 3.16 | Gateway and Egress | `GW` | Whether gateway allowlists, SSRF protections, OAuth discovery fetches, and rate limiting hold. |
 | 3.17 | Secrets and Credentials | `SECR` | Whether secrets avoid configuration and environment exposure, are stored and rotated properly, and are redacted. |
 | 3.18 | Resilience and Abuse | `ABUS` | Whether tool-call storms, concurrency and retry behaviour stay bounded and safe. |
 | 3.19 | Privacy and Retention | `PRVC` | Whether PII, retention and downstream copying are minimized and labelled. |
