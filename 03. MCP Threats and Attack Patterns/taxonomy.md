@@ -26,7 +26,7 @@ Identifiers are referenced in prose as backticked codes (`MCPSTG-INFO-01`) and a
 | 3.08 | Context and Memory | `CTX` | Whether context over-shares, persists, leaks, crosses sessions, or lets untrusted content outrank trusted content. |
 | 3.09 | Agentic Workflow | `AGNT` | Whether autonomy, multi-step workflows, goal handling and retry behaviour stay within intended limits. |
 | 3.10 | Input Validation | `INPV` | Whether tool inputs are validated: parameters, paths, and JSON/schema confusion. |
-| 3.11 | Output Handling | `OUTV` | Whether tool output is rendered and filtered safely, and whether sensitive data appears in results. |
+| 3.11 | Output Handling | `OUTV` | Whether tool output is rendered and filtered safely, including non-text content, and whether sensitive data appears in results. |
 | 3.12 | Logging and Detection | `LOG` | Whether tool calls, approvals, injection attempts and secret exposure are logged, detectable and reconstructable. |
 | 3.13 | Supply Chain | `SUPP` | Whether server provenance, dependencies, installation, registry trust and updates are verifiable. |
 | 3.14 | Enterprise Governance | `GOV` | Whether inventory, approved registries, policy, exceptions and compliance evidence exist and are enforced. |
