@@ -22,7 +22,7 @@ Identifiers are referenced in prose as backticked codes (`MCPSTG-INFO-01`) and a
 | 3.04 | Authorization and Permission | `AUTHZ` | Whether permissions are least-privilege and enforced per action, per user and per workspace, including approvals and chaining. |
 | 3.05 | Tool Security | `TOOL` | Whether tools can be poisoned, invoked unsafely, chained dangerously, or approved without informed consent. |
 | 3.06 | Resource and Data Access | `RSRC` | Whether resources leak, enumerate, cross workspace or tenant boundaries, or expose secrets and files. |
-| 3.07 | Prompt and Instruction | `PRMT` | Whether instructions can be injected, overridden, hidden or leaked through prompts and tool output. |
+| 3.07 | Prompt and Instruction | `PRMT` | Whether instructions can be injected, overridden, hidden or leaked through prompts, tool output, or the server `instructions` field. |
 | 3.08 | Context and Memory | `CTX` | Whether context over-shares, persists, leaks, crosses sessions, or lets untrusted content outrank trusted content. |
 | 3.09 | Agentic Workflow | `AGNT` | Whether autonomy, multi-step workflows, goal handling and retry behaviour stay within intended limits. |
 | 3.10 | Input Validation | `INPV` | Whether tool inputs are validated: parameters, paths, and JSON/schema confusion. |
